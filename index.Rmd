@@ -1,0 +1,18 @@
+---
+title: "R portfolio Daniël Roodzant"
+author: "Daniël Roodzant"
+site: bookdown::bookdown_site
+documentclass: book
+new_session: yes
+output:
+  bookdown::gitbook:
+    number_sections: true
+    split_by: chapter 
+    config:
+      toc:
+        collapse: section
+        scroll_highlights: yes
+  #bookdown::pdf_book: default
+---
+
+My bookdown
