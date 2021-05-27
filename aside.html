@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Portfolio assignment 2 | R portfolio Daniël Roodzant</title>
-  <meta name="description" content="Portfolio assignment 2 | R portfolio Daniël Roodzant" />
+  <title>Aside | R portfolio Daniël Roodzant</title>
+  <meta name="description" content="Aside | R portfolio Daniël Roodzant" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Portfolio assignment 2 | R portfolio Daniël Roodzant" />
+  <meta property="og:title" content="Aside | R portfolio Daniël Roodzant" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Portfolio assignment 2 | R portfolio Daniël Roodzant" />
+  <meta name="twitter:title" content="Aside | R portfolio Daniël Roodzant" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="portfolio-assignment-1-2.html"/>
-<link rel="next" href="portfolio-assignment-3.html"/>
+<link rel="prev" href="portfolio-assignment-3.html"/>
+<link rel="next" href="main.html"/>
 <script src="libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -165,7 +165,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="portfolio-assignment-5.html"><a href="portfolio-assignment-5.html"><i class="fa fa-check"></i>Portfolio assignment 5</a>
 <ul>
 <li class="chapter" data-level="" data-path="portfolio-assignment-5.html"><a href="portfolio-assignment-5.html#assignment-4"><i class="fa fa-check"></i>Assignment</a></li>
-<li class="chapter" data-level="" data-path="portfolio-assignment-5.html"><a href="portfolio-assignment-5.html#projecticum-introduction"><i class="fa fa-check"></i>Projecticum introduction</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="portfolio-assignment-6-1.html"><a href="portfolio-assignment-6-1.html"><i class="fa fa-check"></i>Portfolio assignment 6.1</a>
 <ul>
@@ -189,141 +188,56 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="portfolio-assignment-2" class="section level1 tabset unnumbered">
-<h1>Portfolio assignment 2</h1>
-<div id="assignment-2" class="section level2 unnumbered">
-<h2>Assignment</h2>
-<p>Applying the Guerrilla analytics framework to your own project.</p>
-<p><strong>A</strong> <br>
-1. Look at your RStudio project that you created for the DAUR-II final assignment <br>
-2. Rearrange your project according the Guerilla principles explained above <br>
-3. Add README files to the datasets <br>
-4. Use the {fs} package to share a screenshot of your folder tree in your portfolio, look at: for more info on how to use the {fs} package.</p>
-<pre><code>## .
-## +-- 001-portfolio_assignment_1.1.Rmd
-## +-- 002-portfolio_assignment_1.2.Rmd
-## +-- 003_portfolio_assignment_2.Rmd
-## +-- 004_portfolio_assignment_3.Rmd
-## +-- 005_portfolio_assignment_5.Rmd
-## +-- 006_portfolio_assignment_6.1.Rmd
-## +-- 007_portfolio_assignment_7.Rmd
-## +-- data
-## |   +-- data_raw
-## |   |   +-- bats_and_covid.R
-## |   |   +-- CE.LIQ.FLOW.062_Tidydata.txt
-## |   |   +-- CE.LIQ.FLOW.062_Tidydata.xlsx
-## |   |   +-- GDELTBatsUS1620.csv
-## |   |   \-- reproducibility_criteria.xlsx
-## |   +-- dengue_data.csv
-## |   +-- flu_data.csv
-## |   +-- portfolio_5b.bib
-## |   +-- _CV_Daniël_Roodzant.html
-## |   +-- _CV_Daniël_Roodzant.pdf
-## |   +-- _CV_Daniël_Roodzant.Rmd
-## |   +-- _CV_Daniël_Roodzant_files
-## |   |   +-- font-awesome-5.1.0
-## |   |   |   +-- css
-## |   |   |   |   +-- all.css
-## |   |   |   |   \-- v4-shims.css
-## |   |   |   \-- webfonts
-## |   |   |       +-- fa-brands-400.eot
-## |   |   |       +-- fa-brands-400.svg
-## |   |   |       +-- fa-brands-400.ttf
-## |   |   |       +-- fa-brands-400.woff
-## |   |   |       +-- fa-brands-400.woff2
-## |   |   |       +-- fa-regular-400.eot
-## |   |   |       +-- fa-regular-400.svg
-## |   |   |       +-- fa-regular-400.ttf
-## |   |   |       +-- fa-regular-400.woff
-## |   |   |       +-- fa-regular-400.woff2
-## |   |   |       +-- fa-solid-900.eot
-## |   |   |       +-- fa-solid-900.svg
-## |   |   |       +-- fa-solid-900.ttf
-## |   |   |       +-- fa-solid-900.woff
-## |   |   |       \-- fa-solid-900.woff2
-## |   |   +-- header-attrs-2.8
-## |   |   |   \-- header-attrs.js
-## |   |   \-- paged-0.14
-## |   |       +-- css
-## |   |       |   \-- resume.css
-## |   |       \-- js
-## |   |           +-- config.js
-## |   |           +-- hooks.js
-## |   |           \-- paged.js
-## |   \-- _introduction.Rmd
-## +-- index.html
-## +-- index.Rmd
-## +-- WorkflowsPortfolio.Rproj
-## +-- _book
-## |   +-- aside.html
-## |   +-- data
-## |   |   +-- _CV_Daniël_Roodzant.html
-## |   |   +-- _CV_Daniël_Roodzant.pdf
-## |   |   \-- _introduction.Rmd
-## |   +-- index.html
-## |   +-- libs
-## |   |   +-- accessible-code-block-0.0.1
-## |   |   |   \-- empty-anchor.js
-## |   |   +-- anchor-sections-1.0.1
-## |   |   |   +-- anchor-sections.css
-## |   |   |   \-- anchor-sections.js
-## |   |   +-- gitbook-2.6.7
-## |   |   |   +-- css
-## |   |   |   |   +-- fontawesome
-## |   |   |   |   |   \-- fontawesome-webfont.ttf
-## |   |   |   |   +-- plugin-bookdown.css
-## |   |   |   |   +-- plugin-clipboard.css
-## |   |   |   |   +-- plugin-fontsettings.css
-## |   |   |   |   +-- plugin-highlight.css
-## |   |   |   |   +-- plugin-search.css
-## |   |   |   |   +-- plugin-table.css
-## |   |   |   |   \-- style.css
-## |   |   |   \-- js
-## |   |   |       +-- app.min.js
-## |   |   |       +-- clipboard.min.js
-## |   |   |       +-- jquery.highlight.js
-## |   |   |       +-- lunr.js
-## |   |   |       +-- plugin-bookdown.js
-## |   |   |       +-- plugin-clipboard.js
-## |   |   |       +-- plugin-fontsettings.js
-## |   |   |       +-- plugin-search.js
-## |   |   |       \-- plugin-sharing.js
-## |   |   +-- header-attrs-2.8
-## |   |   |   \-- header-attrs.js
-## |   |   \-- jquery-2.2.3
-## |   |       \-- jquery.min.js
-## |   +-- main.html
-## |   +-- portfolio-assignment-1-1.html
-## |   +-- portfolio-assignment-1-2.html
-## |   +-- portfolio-assignment-2.html
-## |   +-- portfolio-assignment-3.html
-## |   +-- portfolio-assignment-5.html
-## |   +-- portfolio-assignment-6-1.html
-## |   +-- portfolio-assignment-7.html
-## |   +-- search_index.json
-## |   +-- section-1.html
-## |   +-- section-2.html
-## |   +-- section.html
-## |   +-- tabset-unnumbered.html
-## |   +-- _main.html
-## |   \-- _main_files
-## |       \-- figure-html
-## |           +-- 1.1.d-1.png
-## |           +-- 1.1.e-1.png
-## |           +-- 1.1.f-1.png
-## |           \-- 1.1.j-1.png
-## +-- _bookdown_files
-## +-- _main.Rmd
-## \-- _main_files
-##     \-- figure-html
-##         +-- 1.1.d-1.png
-##         +-- 1.1.e-1.png
-##         +-- 1.1.f-1.png
-##         \-- 1.1.j-1.png</code></pre>
-<p><strong>B</strong>
-Now clean up your work environment for this course (workflows) and the parallel course in DSFB2 (projecticum). Set up a folder structure that will accomodate future plans and collaboration on the projecticum. Provide readme-files or comments within the code where needed.</p>
-<p>For the projecticum folder, make sure you do this together with your lab partner.</p>
-
+<div id="aside" class="section level1">
+<h1>Aside</h1>
+<div id="contact" class="section level2">
+<h2>Contact Info</h2>
+<ul>
+<li><i class="fa fa-envelope"></i> <a href="mailto:daniel.roodzant@hotmail.com" class="email">daniel.roodzant@hotmail.com</a></li>
+<li><i class="fa fa-github"></i> <a href="https://github.com/DanielRoodzantHU">github.com/DanielRoodzantHU</a></li>
+<li><i class="fa fa-phone"></i> +31 6 577 788 38</li>
+<li>Meer informatie via email.</li>
+</ul>
+</div>
+<div id="skills" class="section level2">
+<h2>Vaardigheden</h2>
+<p style="text-align: right;">
+MS Office <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i>
+</p>
+<p style="text-align: right;">
+Bash, Perl, R <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i>
+</p>
+<br>
+<p style="text-align: right;">
+Teamwork <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i>
+</p>
+<p style="text-align: right;">
+Aanpassingsvermogen <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i>
+</p>
+<p style="text-align: right;">
+Leiderschap <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i>
+</p>
+</div>
+<div id="skills" class="section level2">
+<h2>Talen</h2>
+<p style="text-align: right;">
+Nederlands <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i>
+</p>
+<p style="text-align: right;">
+Engels <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i>
+</p>
+<p style="text-align: right;">
+Duits <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i>
+</p>
+</div>
+<div id="skills" class="section level2">
+<h2>Hobby’s en intresses</h2>
+<ul>
+<li>Lezen van non-fictie boeken</li>
+<li>Drummen in mijn vrije tijd</li>
+<li>Sporten in de sportschool</li>
+<li>Leren beleggen</li>
+</ul>
 </div>
 </div>
             </section>
@@ -331,8 +245,8 @@ Now clean up your work environment for this course (workflows) and the parallel 
           </div>
         </div>
       </div>
-<a href="portfolio-assignment-1-2.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="portfolio-assignment-3.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="portfolio-assignment-3.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="main.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

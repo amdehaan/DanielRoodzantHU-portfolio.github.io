@@ -1,0 +1,17 @@
+---
+title: "introduction projecticum"
+bibliography: "CopyOfportfolio_5b.bib"
+output: html_document
+---
+
+# Projecticum Princes Maxima Center
+The projecticum assignment was to create a shiny app containing an interactive dashboard that displays the metadata of tests run by researchers from the Princess Maxima Center (PMC) in Utrecht.<br>
+To create the app the group first had to get familiar with R Shiny. Luckily the internet is full of pages teaching people how to use shiny and its many applications. This: [@mst] online course was the biggest help in learning how to use shiny as it walks you through the basic as well as the more advanced parts of shiny. Another great help were this video: [@shntot] containing a tutorial on how to work with shiny, and this cheat sheet: [@shncht] containing some usefull commands to use for Rshiny.<br>
+After learning how to create shiny applications it was time to start working on the product. The workflow was organised to be agile and was run through a GitHub projectboard containing all the tasks needed to complete the product. The tasks were completed in sprints with occasional scrum meetings between the group members. When used the app will ask the user to upload files out of which the application builds an interactive dataframe. The dataframe contains all the data points required for the metadata file and can be modified easily using dropdown boxes and power functions to modify entire rows. Once the user is done filling in the dataframe he or she can press a download button to download a .TSV file of the data to store where needed.<br>
+During the process of creating the dashboard there was frequent contact with the representative from the PMC so he could express his thoughts on the app and the direction it was headed in. This ensured the product would be user friendly for those who would actually use it. 
+
+Other great links are: <br>
+Shiny gallery with great apps other people made: [@shngal] <br>
+Great app from the gallery: [@shnpok]
+
+# References

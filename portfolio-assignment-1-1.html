@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>R portfolio Daniël Roodzant</title>
+  <meta name="description" content="R portfolio Daniël Roodzant" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="R portfolio Daniël Roodzant" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="R portfolio Daniël Roodzant" />
+  
+  
+  
+
+<meta name="author" content="Daniël Roodzant" />
+
+
+<meta name="date" content="2021-05-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="portfolio-assignment-1-2.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html"><i class="fa fa-check"></i>Portfolio assignment 1.1</a>
+<ul>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#assignment"><i class="fa fa-check"></i>Assignment</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#a"><i class="fa fa-check"></i>A</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#b"><i class="fa fa-check"></i>B</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#c"><i class="fa fa-check"></i>C</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#d"><i class="fa fa-check"></i>D</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#e"><i class="fa fa-check"></i>E</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#f"><i class="fa fa-check"></i>F</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#g-h"><i class="fa fa-check"></i>G &amp; H</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#i"><i class="fa fa-check"></i>I</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#j"><i class="fa fa-check"></i>J</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-1.html"><a href="portfolio-assignment-1-1.html#k"><i class="fa fa-check"></i>K</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-2.html"><a href="portfolio-assignment-1-2.html"><i class="fa fa-check"></i>Portfolio assignment 1.2</a>
+<ul>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-2.html"><a href="portfolio-assignment-1-2.html#assignment-1"><i class="fa fa-check"></i>Assignment</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-2.html"><a href="portfolio-assignment-1-2.html#part-1-a-g"><i class="fa fa-check"></i>Part 1, A-G</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-1-2.html"><a href="portfolio-assignment-1-2.html#part-2-h-p"><i class="fa fa-check"></i>Part 2, H-P</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-2.html"><a href="portfolio-assignment-2.html"><i class="fa fa-check"></i>Portfolio assignment 2</a>
+<ul>
+<li class="chapter" data-level="" data-path="portfolio-assignment-2.html"><a href="portfolio-assignment-2.html#assignment-2"><i class="fa fa-check"></i>Assignment</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-3.html"><a href="portfolio-assignment-3.html"><i class="fa fa-check"></i>Portfolio assignment 3</a>
+<ul>
+<li class="chapter" data-level="" data-path="portfolio-assignment-3.html"><a href="portfolio-assignment-3.html#assignment-3"><i class="fa fa-check"></i>Assignment</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-3.html"><a href="portfolio-assignment-3.html#cv"><i class="fa fa-check"></i>CV</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-5.html"><a href="portfolio-assignment-5.html"><i class="fa fa-check"></i>Portfolio assignment 5</a>
+<ul>
+<li class="chapter" data-level="" data-path="portfolio-assignment-5.html"><a href="portfolio-assignment-5.html#assignment-4"><i class="fa fa-check"></i>Assignment</a></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-5.html"><a href="portfolio-assignment-5.html#projecticum-introduction"><i class="fa fa-check"></i>Projecticum introduction</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-6-1.html"><a href="portfolio-assignment-6-1.html"><i class="fa fa-check"></i>Portfolio assignment 6.1</a>
+<ul>
+<li class="chapter" data-level="" data-path="portfolio-assignment-6-1.html"><a href="portfolio-assignment-6-1.html#assignment-5"><i class="fa fa-check"></i>Assignment</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="portfolio-assignment-7.html"><a href="portfolio-assignment-7.html"><i class="fa fa-check"></i>Portfolio assignment 7</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">R portfolio Daniël Roodzant</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">R portfolio Daniël Roodzant</h1>
+<p class="author"><em>Daniël Roodzant</em></p>
+<p class="date" style="margin-top: 1.5em;"><em>2021-05-27</em></p>
+</div>
+<div id="portfolio-assignment-1.1" class="section level1 tabset unnumbered">
+<h1>Portfolio assignment 1.1</h1>
+<div id="assignment" class="section level2 unnumbered">
+<h2>Assignment</h2>
+<p><strong>C. elegans plate experiment</strong></p>
+<p>(Again: work out this exercise in a Rmarkdown file in your portfolio-project. You will need this later to put in your portfolio)</p>
+<p>The data for this exercise was kindly supplied by J. Louter (INT/ILC) and was derived from an experiment in which adult C.elegans nematodes were exposed to varying concentrations of different compounds. The variables RawData (the outcome - number of offspring counted as an integer value, after incubation time), compName (the generic name of the compound/chemical), the compConcentration (the concentration of the compound), and the expType are the most important variables in this dataset.</p>
+<p>A typical analysis with this data would be to run a dose-response analysis using a log-logistic model with estimates for the maximal, the minimal, the IC50 concentration and the slope at IC50. We will not go into the details but a good package to run such computations and create graphs in R is the {drc} package. See: and:. In the exercise below we will create some visualizations using {ggplot2}.</p>
+<p><strong>A.</strong> Review the following Excel file in the ./data/CE.LIQ.FLOW.062_Tidydata.xlsx (it’s here), by opening the file in Excel. See if you can spot anything peculiar about this file. Do not edit the file in any way. Just close it when you are done. (Annoyingly, Excel asks you to save your changes, even if you did not touch anything in the file: why is this cumbersome?)</p>
+<p><strong>B.</strong> Open the file in R, using the {readxl} package.</p>
+<p><strong>C.</strong> Inspect the data types of columns RawData, compName and compConcentration. What types would you expect from the experimental description above. Have the data types been correctly assigned during the importing of the data into R?</p>
+<p><strong>D.</strong> Create a graph displaying a scatterplot for the CE.LIQ.FLOW.062_Tidydata.xlsx data, for the different compounds and the varying concentrations. Put the compConcentration on the x-axis, the DataRaw counts on the y-axis and assign a colour to each level in compName. Assign a different symbol (shape =) to each level in the expType variable. Try fixing the labels of the x-axis so that we can read them.</p>
+<p><strong>E.</strong> When creating the plot under C), what happened with the ordering of the x-axis labels. Explain why this happens. Look at the data-type of the compConcentration column in the data again to find a clue.</p>
+<p><strong>F.</strong> Correct the data-type of compConcentration to numeric and than look at the graph again. Use a log10 transformation on the x-axis to get a clear graph. Also, add a bit of jitter to the points in the graph so that points are not overlapping.</p>
+<p><strong>G &amp; H.</strong> Fill in: (G) The positive control for this experiments is ….. (H) The negative control for this experiment is …..</p>
+<p><strong>I.</strong> Think about how you would analyze this experiment to learn whether there is indeed an effect of different concentrations on offspring count and whether the different compounds have a different curve (IC50). Write down you analysis as a step-wise plan.</p>
+<p><strong>J.</strong> Normalize the data for the controlNegative in such a way that the mean value for controlNegative is exactly equal to 1 and that all other values are expressed as a fraction thereof. Rerun your graphs with the normalized data.</p>
+<p><strong>K.</strong> Why would you want to take the step under J?</p>
+</div>
+<div id="a" class="section level2 unnumbered">
+<h2>A</h2>
+<p><strong>Q:</strong> Review the following Excel file in the ./data/CE.LIQ.FLOW.062_Tidydata.xlsx (it’s here), by opening the file in Excel. See if you can spot anything peculiar about this file. Do not edit the file in any way. Just close it when you are done. (Annoyingly, Excel asks you to save your changes, even if you did not touch anything in the file: why is this cumbersome?)</p>
+<p><strong>A:</strong> Someone put a lot of care into the make-up of the sheet and it’s still difficult to read.</p>
+</div>
+<div id="b" class="section level2 unnumbered">
+<h2>B</h2>
+<p>Open the file in R, using the {readxl} package.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="portfolio-assignment-1-1.html#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">read_excel</span>(<span class="st">&#39;data/data_raw/CE.LIQ.FLOW.062_Tidydata.xlsx&#39;</span>) <span class="sc">%&gt;%</span> <span class="fu">head</span>(<span class="dv">10</span>))</span></code></pre></div>
+<table style="width:100%;">
+<colgroup>
+<col width="1%" />
+<col width="2%" />
+<col width="1%" />
+<col width="1%" />
+<col width="2%" />
+<col width="2%" />
+<col width="3%" />
+<col width="2%" />
+<col width="6%" />
+<col width="1%" />
+<col width="1%" />
+<col width="3%" />
+<col width="1%" />
+<col width="2%" />
+<col width="5%" />
+<col width="3%" />
+<col width="1%" />
+<col width="2%" />
+<col width="3%" />
+<col width="2%" />
+<col width="2%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="3%" />
+<col width="2%" />
+<col width="1%" />
+<col width="4%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">plateRow</th>
+<th align="left">plateColumn</th>
+<th align="right">vialNr</th>
+<th align="left">dropCode</th>
+<th align="left">expType</th>
+<th align="right">expReplicate</th>
+<th align="left">expName</th>
+<th align="left">expDate</th>
+<th align="left">expResearcher</th>
+<th align="right">expTime</th>
+<th align="left">expUnit</th>
+<th align="right">expVolumeCounted</th>
+<th align="right">RawData</th>
+<th align="left">compCASRN</th>
+<th align="left">compName</th>
+<th align="left">compConcentration</th>
+<th align="left">compUnit</th>
+<th align="left">compDelivery</th>
+<th align="left">compVehicle</th>
+<th align="left">elegansStrain</th>
+<th align="right">elegansInput</th>
+<th align="left">bacterialStrain</th>
+<th align="left">bacterialTreatment</th>
+<th align="right">bacterialOD600</th>
+<th align="right">bacterialConcX</th>
+<th align="right">bacterialVolume</th>
+<th align="left">bacterialVolUnit</th>
+<th align="left">incubationVial</th>
+<th align="right">incubationVolume</th>
+<th align="left">incubationUnit</th>
+<th align="left">incubationMethod</th>
+<th align="right">incubationRPM</th>
+<th align="left">bubble</th>
+<th align="right">incubateTemperature</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">1</td>
+<td align="left">a</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">44</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">1</td>
+<td align="left">b</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">37</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">1</td>
+<td align="left">c</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">45</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">1</td>
+<td align="left">d</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">47</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">1</td>
+<td align="left">e</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">41</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">2</td>
+<td align="left">a</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">35</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">2</td>
+<td align="left">b</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">41</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">2</td>
+<td align="left">c</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">36</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">2</td>
+<td align="left">d</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">40</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="right">2</td>
+<td align="left">e</td>
+<td align="left">experiment</td>
+<td align="right">3</td>
+<td align="left">CE.LIQ.FLOW.062</td>
+<td align="left">2020-11-30</td>
+<td align="left">Sergio Reijnders - Ellis Herder</td>
+<td align="right">68</td>
+<td align="left">hour</td>
+<td align="right">50</td>
+<td align="right">38</td>
+<td align="left">24157-81-1</td>
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="left">4.99</td>
+<td align="left">nM</td>
+<td align="left">Liquid</td>
+<td align="left">controlVehicleA</td>
+<td align="left">N2</td>
+<td align="right">25</td>
+<td align="left">OP50</td>
+<td align="left">heated</td>
+<td align="right">0.743</td>
+<td align="right">8</td>
+<td align="right">300</td>
+<td align="left">ul</td>
+<td align="left">1,5 glass vial</td>
+<td align="right">1000</td>
+<td align="left">ul</td>
+<td align="left">rockroll</td>
+<td align="right">35</td>
+<td align="left">NA</td>
+<td align="right">20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="c" class="section level2 unnumbered">
+<h2>C</h2>
+<p><strong>Q:</strong> Inspect the data types of columns RawData, compName and compConcentration. What types would you expect from the experimental description above. Have the data types been correctly assigned during the importing of the data into R?</p>
+<p><strong>A:</strong> You would expect compConcentration to be dbl but it’s in chr so it was imported incorrectly.</p>
+</div>
+<div id="d" class="section level2 unnumbered">
+<h2>D</h2>
+<p>Create a graph displaying a scatterplot for the CE.LIQ.FLOW.062_Tidydata.xlsx data, for the different compounds and the varying concentrations. Put the compConcentration on the x-axis, the DataRaw counts on the y-axis and assign a colour to each level in compName. Assign a different symbol (shape =) to each level in the expType variable. Try fixing the labels of the x-axis so that we can read them.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="portfolio-assignment-1-1.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Retrieve data from .txt instead of .xlsx (for .xlsx see exercise E)</span></span>
+<span id="cb2-2"><a href="portfolio-assignment-1-1.html#cb2-2" aria-hidden="true" tabindex="-1"></a>scatter_FLOW<span class="fl">.062</span> <span class="ot">&lt;-</span> <span class="fu">read_tsv</span>(<span class="st">&#39;data/data_raw/CE.LIQ.FLOW.062_Tidydata.txt&#39;</span>, </span>
+<span id="cb2-3"><a href="portfolio-assignment-1-1.html#cb2-3" aria-hidden="true" tabindex="-1"></a>                             <span class="at">locale =</span> <span class="fu">locale</span>(<span class="at">decimal_mark =</span> <span class="st">&quot;,&quot;</span>)</span>
+<span id="cb2-4"><a href="portfolio-assignment-1-1.html#cb2-4" aria-hidden="true" tabindex="-1"></a>                             )</span>
+<span id="cb2-5"><a href="portfolio-assignment-1-1.html#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting data using ggplot</span></span>
+<span id="cb2-6"><a href="portfolio-assignment-1-1.html#cb2-6" aria-hidden="true" tabindex="-1"></a>scatter_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData)) <span class="sc">+</span> </span>
+<span id="cb2-7"><a href="portfolio-assignment-1-1.html#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">colour =</span> compName, <span class="at">shape =</span> compName)) <span class="sc">+</span> </span>
+<span id="cb2-8"><a href="portfolio-assignment-1-1.html#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">&quot;Compound RawData per compound concentration&quot;</span>,</span>
+<span id="cb2-9"><a href="portfolio-assignment-1-1.html#cb2-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">&quot;Data supplied by J. Louter (INT/ILC)&quot;</span>) </span></code></pre></div>
+<p><img src="_main_files/figure-html/1.1.d-1.png" width="672" /></p>
+</div>
+<div id="e" class="section level2 unnumbered">
+<h2>E</h2>
+<p><strong>Q:</strong> When creating the plot under D), what happened with the ordering of the x-axis labels. Explain why this happens. Look at the data-type of the compConcentration column in the data again to find a clue.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="portfolio-assignment-1-1.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show example of the wrong graph gotten from .xlsx format by retrieving data and plotting it</span></span>
+<span id="cb3-2"><a href="portfolio-assignment-1-1.html#cb3-2" aria-hidden="true" tabindex="-1"></a>wrong_scatter_FLOW<span class="fl">.062</span> <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">&#39;data/data_raw/CE.LIQ.FLOW.062_Tidydata.xlsx&#39;</span>)</span>
+<span id="cb3-3"><a href="portfolio-assignment-1-1.html#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="portfolio-assignment-1-1.html#cb3-4" aria-hidden="true" tabindex="-1"></a>wrong_scatter_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData)) <span class="sc">+</span> </span>
+<span id="cb3-5"><a href="portfolio-assignment-1-1.html#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">colour =</span> compName, <span class="at">shape =</span> compName)) <span class="sc">+</span> </span>
+<span id="cb3-6"><a href="portfolio-assignment-1-1.html#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">&quot;Compound RawData per compound concentration&quot;</span>,</span>
+<span id="cb3-7"><a href="portfolio-assignment-1-1.html#cb3-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">&quot;Data supplied by J. Louter (INT/ILC)&quot;</span>) </span></code></pre></div>
+<p><img src="_main_files/figure-html/1.1.e-1.png" width="672" /></p>
+<p><strong>A:</strong> Every concentration is seen as a separate point because the column has the ‘chr’ type.</p>
+</div>
+<div id="f" class="section level2 unnumbered">
+<h2>F</h2>
+<p>Correct the data-type of compConcentration to numeric and than look at the graph again. Use a log10 transformation on the x-axis to get a clear graph. Also, add a bit of jitter to the points in the graph so that points are not overlapping.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="portfolio-assignment-1-1.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data from corrected .txt file</span></span>
+<span id="cb4-2"><a href="portfolio-assignment-1-1.html#cb4-2" aria-hidden="true" tabindex="-1"></a>scatter_FLOW<span class="fl">.062</span> <span class="ot">&lt;-</span> <span class="fu">read_tsv</span>(<span class="st">&#39;data/data_raw/CE.LIQ.FLOW.062_Tidydata.txt&#39;</span>, </span>
+<span id="cb4-3"><a href="portfolio-assignment-1-1.html#cb4-3" aria-hidden="true" tabindex="-1"></a>                             <span class="at">locale =</span> <span class="fu">locale</span>(<span class="at">decimal_mark =</span> <span class="st">&quot;,&quot;</span>)</span>
+<span id="cb4-4"><a href="portfolio-assignment-1-1.html#cb4-4" aria-hidden="true" tabindex="-1"></a>                             )</span>
+<span id="cb4-5"><a href="portfolio-assignment-1-1.html#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot data using log10 function in ggplot</span></span>
+<span id="cb4-6"><a href="portfolio-assignment-1-1.html#cb4-6" aria-hidden="true" tabindex="-1"></a>scatter_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> RawData)) <span class="sc">+</span> </span>
+<span id="cb4-7"><a href="portfolio-assignment-1-1.html#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb4-8"><a href="portfolio-assignment-1-1.html#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="fu">aes</span>(<span class="at">colour =</span> compName, <span class="at">shape =</span> compName), <span class="at">width =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb4-9"><a href="portfolio-assignment-1-1.html#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_log10</span>() <span class="sc">+</span></span>
+<span id="cb4-10"><a href="portfolio-assignment-1-1.html#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">&quot;Compound RawData per compound concentration&quot;</span>,</span>
+<span id="cb4-11"><a href="portfolio-assignment-1-1.html#cb4-11" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">&quot;Data supplied by J. Louter (INT/ILC)&quot;</span>) </span></code></pre></div>
+<p><img src="_main_files/figure-html/1.1.f-1.png" width="672" /></p>
+</div>
+<div id="g-h" class="section level2 unnumbered">
+<h2>G &amp; H</h2>
+<p>Fill in: (G) The positive control for this experiments is <strong>naphtalene</strong> (H) The negative control for this experiment is <strong>S-medium</strong></p>
+</div>
+<div id="i" class="section level2 unnumbered">
+<h2>I</h2>
+<p><strong>Q:</strong> Think about how you would analyze this experiment to learn whether there is indeed an effect of different concentrations on offspring count and whether the different compounds have a different curve (IC50). Write down you analysis as a step-wise plan.</p>
+<p><strong>A:</strong>
+- Group the data for every compound.
+- Check if the data is normally distributed.
+- Use the apropriate statistical tests on the data to see if there is a statistically significant effect of different concentrations on the offspring count.
+- Calculate the IC50 and make a curve.</p>
+</div>
+<div id="j" class="section level2 unnumbered">
+<h2>J</h2>
+<p>Normalize the data for the controlNegative in such a way that the mean value for controlNegative is exactly equal to 1 and that all other values are expressed as a fraction thereof. Rerun your graphs with the normalized data.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="portfolio-assignment-1-1.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the mean of the RawData</span></span>
+<span id="cb5-2"><a href="portfolio-assignment-1-1.html#cb5-2" aria-hidden="true" tabindex="-1"></a>mean_data_FLOW<span class="fl">.062</span> <span class="ot">&lt;-</span> scatter_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> </span>
+<span id="cb5-3"><a href="portfolio-assignment-1-1.html#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(RawData, compName, compConcentration) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-4"><a href="portfolio-assignment-1-1.html#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(compName) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-5"><a href="portfolio-assignment-1-1.html#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(compName <span class="sc">==</span> <span class="st">&#39;S-medium&#39;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-6"><a href="portfolio-assignment-1-1.html#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">mean_RawData =</span> <span class="fu">mean</span>(RawData, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) </span>
+<span id="cb5-7"><a href="portfolio-assignment-1-1.html#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="portfolio-assignment-1-1.html#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalise the RawData using the calculated mean</span></span>
+<span id="cb5-9"><a href="portfolio-assignment-1-1.html#cb5-9" aria-hidden="true" tabindex="-1"></a>normalized_FLOW<span class="fl">.062</span> <span class="ot">&lt;-</span> scatter_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> </span>
+<span id="cb5-10"><a href="portfolio-assignment-1-1.html#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(compName, compConcentration, RawData) <span class="sc">%&gt;%</span></span>
+<span id="cb5-11"><a href="portfolio-assignment-1-1.html#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">RawData_normalized =</span> RawData <span class="sc">/</span> mean_data_FLOW<span class="fl">.062</span><span class="sc">$</span>mean_RawData)</span>
+<span id="cb5-12"><a href="portfolio-assignment-1-1.html#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="portfolio-assignment-1-1.html#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the mean of the normalised data</span></span>
+<span id="cb5-14"><a href="portfolio-assignment-1-1.html#cb5-14" aria-hidden="true" tabindex="-1"></a>mean_normalized_FLOW<span class="fl">.062</span> <span class="ot">&lt;-</span> normalized_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(compName, compConcentration) <span class="sc">%&gt;%</span></span>
+<span id="cb5-15"><a href="portfolio-assignment-1-1.html#cb5-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">mean_RawData_normalized =</span> <span class="fu">mean</span>(RawData_normalized, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb5-16"><a href="portfolio-assignment-1-1.html#cb5-16" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(mean_normalized_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> <span class="fu">head</span>(<span class="dv">5</span>))</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">compName</th>
+<th align="right">compConcentration</th>
+<th align="right">mean_RawData_normalized</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="right">4.99e-05</td>
+<td align="right">1.0391929</td>
+</tr>
+<tr class="even">
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="right">4.99e-04</td>
+<td align="right">0.9670159</td>
+</tr>
+<tr class="odd">
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="right">4.99e-03</td>
+<td align="right">0.8746605</td>
+</tr>
+<tr class="even">
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="right">4.99e-02</td>
+<td align="right">0.6868452</td>
+</tr>
+<tr class="odd">
+<td align="left">2,6-diisopropylnaphthalene</td>
+<td align="right">4.99e-01</td>
+<td align="right">0.5036865</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="portfolio-assignment-1-1.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the normalised mean using ggplot</span></span>
+<span id="cb6-2"><a href="portfolio-assignment-1-1.html#cb6-2" aria-hidden="true" tabindex="-1"></a>mean_normalized_FLOW<span class="fl">.062</span> <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> compConcentration, <span class="at">y =</span> mean_RawData_normalized)) <span class="sc">+</span> </span>
+<span id="cb6-3"><a href="portfolio-assignment-1-1.html#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb6-4"><a href="portfolio-assignment-1-1.html#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="fu">aes</span>(<span class="at">colour =</span> compName, <span class="at">shape =</span> compName), <span class="at">width =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb6-5"><a href="portfolio-assignment-1-1.html#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">&quot;Normalized mean compound RawData per compound concentration&quot;</span>,</span>
+<span id="cb6-6"><a href="portfolio-assignment-1-1.html#cb6-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">&quot;Data supplied by J. Louter (INT/ILC)&quot;</span>) </span></code></pre></div>
+<p><img src="_main_files/figure-html/1.1.j-1.png" width="672" /></p>
+</div>
+<div id="k" class="section level2 unnumbered">
+<h2>K</h2>
+<p><strong>Q:</strong> Why would you want to take the step under J?</p>
+<p><strong>A:</strong> To get the result in relation to the ‘0 value’ which makes it easier to compare the samples to the “normal” value.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="portfolio-assignment-1-2.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section",
+"scroll_highlights": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>
